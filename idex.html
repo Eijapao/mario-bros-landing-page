@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="EsconderForms()"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt="logo-header">
+        <a>Home</a>
+        <a>Serviços</a>
+        <a>Sobre Nós</a>
+    </div>
+
+
+    <div class="caixa-mae">
+
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="Mario" class="logo-mario">
+            <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilos</p>
+            <p>Você já deparou com uma situação de emergência coiom encanamento? Vazamentos inesperados, canos entupidos
+                ou
+                toneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a
+                vocês
+                os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi</p>
+
+            <button onclick="Cliqueaqui()">Entre em Contato</button>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="logo luigi" class="luigi">
+        </div>
+
+    </div>
+
+
+    <div class="video-container">
+        <video src="./video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.me/5511998676633?text=Quero%20saber%20mais%20sobre%20os%20produtos" alt="opa"
+        class="link-whatsapp">
+        <img src="./img/whatsapp.png"
+            alt="WhatsApp logo with a white phone icon inside a green speech bubble, conveying a friendly and inviting tone, no additional text present">
+    </a>
+
+    <form class="formulario" action="https://formcarry.com/s/V741nCRwwDO" method="POST" enctype="multipart/form-data">
+        <input placeholder="Digite seu nome" type="text" name="name">
+        <input placeholder="Digite seu e-mail" type="email" name="email">
+        <input placeholder="Digite sua mensagem" name="Divida">
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
